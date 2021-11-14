@@ -1,48 +1,48 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-family: "Arvo";
-    background-image: url('./public/tile.png');
-    background-size:400px;
-    background-repeat: repeat;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: "Arvo";
+  background-image: url("./public/tile.png");
+  background-size: 400px;
+  background-repeat: repeat;
 }
 
-header{ 
-    margin: 0;
-    background-size: cover;
-    background-color: black;
+header {
+  margin: 0;
+  background-size: cover;
+  background-color: black;
 }
 
 h1 {
-    font-family: "Eater";
-    font-size: 3rem;
-    margin-top: 80px;
-    margin-bottom: 0;
-    letter-spacing: 1vw;
-    color: white;
+  font-family: "Eater";
+  font-size: 3rem;
+  margin-top: 80px;
+  margin-bottom: 0;
+  letter-spacing: 1vw;
+  color: white;
 }
 
-header p {  
-    font-size: .6rem;
-    letter-spacing: .2rem;
-    margin: auto;
-    width: 85%;
+header p {
+  font-size: 0.6rem;
+  letter-spacing: 0.2rem;
+  margin: auto;
+  width: 85%;
 }
-
 
 iframe {
-    border: none;
+  border: none;
 }
 
-img, iframe {
-    max-width: 100%;
-    padding: 1rem;
-   /* overflow: hidden;*/ 
+img,
+iframe {
+  max-width: 100%;
+  padding: 1rem;
+  /* overflow: hidden;*/
 }
 
 .close-model {
@@ -56,12 +56,12 @@ img, iframe {
 }
 
 .contact {
-    background-color: black;
-    margin: auto;
-    text-align: center;
-    width:100%;
-    max-width: 400px;
-    padding: 2rem;
+  background-color: black;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
 }
 
 .moedel-container {
@@ -83,7 +83,7 @@ img, iframe {
 
 .open-manifesto {
   color: white;
-  font-family: 'Eater';
+  font-family: "Eater";
   font-size: 1rem;
   border: none;
   text-decoration: underline;
@@ -105,52 +105,49 @@ img, iframe {
 }
 
 .wrapper p {
-    max-width: 80%;
-    margin: auto;
-    background-color: black;
+  max-width: 80%;
+  margin: auto;
+  background-color: black;
 }
-
 
 span {
-    font-family: "Eater";
+  font-family: "Eater";
 }
-
 
 .container {
-    margin: auto;
-    margin-top: 0;
-    max-width: 640px;
-    display: block;
+  margin: auto;
+  margin-top: 0;
+  max-width: 640px;
+  display: block;
 }
 
-
-
 @media screen and (min-width: 640px) {
-    h1 {
-        font-size: 5rem;
-        letter-spacing: 1rem;
-    }
-    header p {
-        font-size: 1rem;
-    }
-    img, iframe{
-        max-width: 100%;
-    }
-    .container {
-        width: 90vw;
-        max-width: 90%;
-        margin: auto;
-    }
-    .wrapper {
-        margin: auto;
-        display: flex;
-        justify-content:space-around;
-        width: 100%;
-    }
-    .wrapper p {
+  h1 {
+    font-size: 5rem;
+    letter-spacing: 1rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  img,
+  iframe {
+    max-width: 100%;
+  }
+  .container {
+    width: 90vw;
+    max-width: 90%;
+    margin: auto;
+  }
+  .wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .wrapper p {
     margin-left: 2rem;
     margin-right: 2rem;
     justify-content: space-between;
     padding: 20px;
-    }
+  }
 }
