@@ -1,3 +1,7 @@
+:root {
+  --text-color: #97f1b7; 
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +9,7 @@
 body {
   text-align: center;
   background-color: black;
-  color: white;
+  color: var(--text-color);
   font-family: "Arvo";
   background-image: url("./public/tile.png");
   background-size: 400px;
@@ -21,8 +25,7 @@ header {
 h1 {
   font-family: "Eater";
   font-size: 3rem;
-  margin-top: 80px;
-  margin-bottom: 0;
+  margin-top: 0;
   letter-spacing: 1vw;
   color: white;
 }
@@ -46,6 +49,7 @@ iframe {
 }
 
 .close-model {
+  background-color: var(--text-color);
   border: 1px solid white;
   border-radius: 8px;
   padding: 0.5rem;
@@ -82,7 +86,7 @@ iframe {
 }
 
 .open-manifesto {
-  color: white;
+  color: var(--text-color);
   font-family: "Eater";
   font-size: 1rem;
   border: none;
